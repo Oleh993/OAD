@@ -11,5 +11,7 @@ public sealed class Druid : Entity.Character
         Strength = 5;
         Intelligence = 10;
         Agility = 8;
+        Speed = 8;
+        Luck = 1;
     }
 }

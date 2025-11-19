@@ -21,7 +21,7 @@ namespace CharacterSelect
                 Console.WriteLine("5) Assassin");
                 Console.WriteLine("6) Druid");
                 Console.WriteLine("0) Wyjście");
-                Console.Write("Wybierz klasę [0-3]: ");
+                Console.Write("Wybierz klasę [0-6]: ");
 
                 var input = Console.ReadLine();
                 if (input == "0") break;
@@ -43,8 +43,8 @@ namespace CharacterSelect
                 Console.WriteLine(">>> Utworzono postać!");
                 character.Describe();
 
-                // Console.WriteLine("\nAkcja: atak");
-                // character.Attack();
+                Console.WriteLine("\nAkcja: atak");
+                character.Attack();
                 //
                 // Console.WriteLine("Akcja: umiejętność specjalna");
                 // character.UseSpecial();

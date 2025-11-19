@@ -11,5 +11,7 @@ public sealed class Assassin : Entity.Character
         Strength = 9;
         Intelligence = 8;
         Agility = 8;
+        Speed = 12;
+        Luck = 1;
     }
 }

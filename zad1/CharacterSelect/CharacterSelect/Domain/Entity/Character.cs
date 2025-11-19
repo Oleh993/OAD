@@ -21,6 +21,11 @@ public abstract class Character
         Name = string.IsNullOrWhiteSpace(name) ? @class.ToString() : name.Trim();
         Class = @class;
     }
+      public virtual void Attack()
+    {
+        int totalDamege = Strength * 3;
+        Console.WriteLine($"{Name} Atakuje: {totalDamege}DMG");
+    }
 
     public virtual void Describe()
     {

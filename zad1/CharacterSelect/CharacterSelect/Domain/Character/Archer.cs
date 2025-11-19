@@ -11,5 +11,7 @@ public sealed class Archer : Entity.Character
         Strength = 14;
         Intelligence = 6;
         Agility = 8;
+        Speed = 13;
+        Luck = 1;
     }
 }
