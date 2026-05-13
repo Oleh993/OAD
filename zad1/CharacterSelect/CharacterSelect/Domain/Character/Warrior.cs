@@ -1,0 +1,20 @@
+using CharacterSelect.Application;
+using CharacterSelect.Domain.Enum;
+
+namespace CharacterSelect.Domain.Character;
+
+public sealed class Warrior : Entity.Character
+{
+    public Warrior(string name) : base(name, CharacterClass.Warrior)
+    {
+        Health = 120;
+        Strength = 14;
+        Intelligence = 6;
+        Agility = 8;
+        Endurance = 12;
+        Luck = 14;
+        MainStat = this.Strength;
+        Atak = MainStat * 3;
+        Special = "rage";
+    }
+}
